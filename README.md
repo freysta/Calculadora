@@ -32,6 +32,10 @@ O repositório está organizado da seguinte forma:
 |   |-- calculadora.js
 |   `-- calculadora.test.js
 |
+|-- /scripts/           # Scripts para executar os testes
+|   |-- run_python.sh
+|   `-- run_js.sh
+|
 `-- README.md           # Documentação do projeto
 ```
 
@@ -48,18 +52,16 @@ O repositório está organizado da seguinte forma:
 
 **Para a calculadora em Python:**
 
-Navegue até o diretório `python` e execute o Pytest:
+Você pode usar o script para rodar os testes Python:
 ```bash
-cd python
-pytest
+./scripts/run_python.sh
 ```
 
 **Para a calculadora em JavaScript:**
 
-Navegue até o diretório `javascript` e execute o Jest:
+Você pode usar o script para rodar os testes JavaScript:
 ```bash
-cd javascript
-npm test
+./scripts/run_js.sh
 ```
 
 ## 🤖 Git e Versionamento
@@ -73,4 +75,4 @@ npm test
 ## 🔗 Referências
 
 -   **Pytest Documentation:** [https://docs.pytest.org/](https://docs.pytest.org/)
--   **Ajuda de IA:** Utilizei o Google Gemini para a estruturação inicial do projeto como o README e a melhor estrutura de pasta.
+-   **Ajuda de IA:** Utilizei o Google Gemini para a estruturação inicial do projeto como o README e a melhor estrutura de pastas.
