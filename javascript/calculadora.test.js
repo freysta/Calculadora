@@ -33,9 +33,18 @@ describe('Calculadora', () => {
         expect(calc.potencia(5, 0)).toBe(1);
     });
 
-    test('raizQuadrada', () => {
-        expect(calc.raizQuadrada(9)).toBe(3);
-        expect(calc.raizQuadrada(0)).toBe(0);
-        expect(() => calc.raizQuadrada(-1)).toThrow("Raiz quadrada de número negativo não é permitida");
-    });
+  test('raizQuadrada', () => {
+    expect(calc.raizQuadrada(9)).toBe(3);
+    expect(calc.raizQuadrada(0)).toBe(0);
+    expect(() => calc.raizQuadrada(-1)).toThrow("Raiz quadrada de número negativo não é permitida");
+  });
+
+  test('tipo de dados adicionar', () => {
+    expect(() => calc.adicionar("2", 3)).toThrow(TypeError);
+    expect(() => calc.adicionar(2, "3")).toThrow(TypeError);
+  });
+
+  test('tipo de dados dividir', () => {
+    expect(() => calc.dividir(6, "2")).toThrow(TypeError);
+  });
 });
