@@ -6,6 +6,8 @@ Este projeto apresenta a implementação de uma classe de calculadora em Python 
 
 Este trabalho foi desenvolvido para fins educacionais por um estagiário da **Compass UOL** na área de **Quality Engineering (Q.E.)**. O projeto é direcionado aos estudos na plataforma de aprendizado **AIR LEARNING** da Compass, focando na aquisição e demonstração de habilidades em automação de testes e qualidade de código.
 
+**Estagiário - Gabriel Lucena Ferreira** 
+
 ## ✨ Funcionalidades
 
 A calculadora suporta as seguintes operações:
