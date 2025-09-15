@@ -4,6 +4,8 @@
 
 Este projeto apresenta a implementação de uma classe de calculadora em Python e JavaScript. O objetivo é demonstrar a criação de métodos robustos, a aplicação de testes unitários com Pytest e a organização de um projeto de desenvolvimento de software.
 
+Este trabalho foi desenvolvido para fins educacionais por um estagiário da **Compass UOL** na área de **Quality Engineering (Q.E.)**. O projeto é direcionado aos estudos na plataforma de aprendizado **AIR LEARNING** da Compass, focando na aquisição e demonstração de habilidades em automação de testes e qualidade de código.
+
 ## ✨ Funcionalidades
 
 A calculadora suporta as seguintes operações:
