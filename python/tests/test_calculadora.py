@@ -33,5 +33,15 @@ class TestCalculadora(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.calc.raiz_quadrada(-1)
 
+    def test_tipo_dados_adicionar(self):
+        with self.assertRaises(TypeError):
+            self.calc.adicionar("2", 3)
+        with self.assertRaises(TypeError):
+            self.calc.adicionar(2, "3")
+
+    def test_tipo_dados_dividir(self):
+        with self.assertRaises(TypeError):
+            self.calc.dividir(6, "2")
+
 if __name__ == '__main__':
     unittest.main()
