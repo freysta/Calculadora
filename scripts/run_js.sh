@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to run JavaScript tests
+# Script Para rodar os testes em Java Script
 
-cd ../javascript
+cd javascript
 npm test
